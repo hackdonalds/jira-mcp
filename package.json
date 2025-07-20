@@ -1,11 +1,12 @@
 {
-  "name": "jira-mcp-server",
+  "name": "@hackdonalds/jira-mcp",
   "version": "0.1.0",
   "description": "A Model Context Protocol server for JIRA integration",
   "type": "module",
+  "private": false,
   "main": "server.js",
   "bin": {
-    "jira-mcp-server": "./server.js"
+    "jira-mcp": "./server.js"
   },
   "scripts": {
     "start": "node server.js"
