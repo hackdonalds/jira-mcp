@@ -1,0 +1,20 @@
+{
+  "name": "jira-mcp",
+  "version": "1.0.0",
+  "exports": "./src/server.ts",
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env --allow-read --allow-write src/server.ts",
+    "start": "deno run --allow-net --allow-env --allow-read --allow-write src/server.ts",
+    "compile": "deno compile --allow-net --allow-env --allow-read --allow-write --output=jira-mcp src/server.ts",
+    "test": "deno run --allow-net --allow-env --allow-read --allow-write test-server.ts"
+  },
+  "imports": {
+    "fastmcp": "npm:fastmcp@^3.9.0",
+    "zod": "npm:zod@^3.22.0",
+    "fuse.js": "npm:fuse.js@^7.0.0"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["dom", "dom.iterable", "deno.ns"]
+  }
+}
