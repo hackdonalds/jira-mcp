@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server that provides tools for interacting with JIRA APIs. This server enables AI assistants to read, create, update, and manage JIRA issues through standardized MCP tools.
 
+<a href="https://glama.ai/mcp/servers/@hackdonalds/jira-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@hackdonalds/jira-mcp/badge" alt="JIRA Server MCP server" />
+</a>
+
 ## Features
 
 This MCP server provides the following tools:
